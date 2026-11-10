@@ -1,0 +1,7 @@
+{
+  "theme": "system",
+  "accentColor": "#901d1d",
+  "showRibbon": true,
+  "showViewHeader": true,
+  "nativeMenus": false
+}
