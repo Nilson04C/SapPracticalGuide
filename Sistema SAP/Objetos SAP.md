@@ -14,13 +14,11 @@ Imagina que queres criar um sistema para gerir colaboradores.
 
 Primeiro precisas de guardar informação:
 
-Plain Text
-
-Nome
-
-Data de Nascimento
-
-Nº Funcionário
+	Nome
+	
+	Data de Nascimento
+	
+	Nº Funcionário
 
 Depois precisas de permitir que alguém consulte essa informação.
 
@@ -32,7 +30,7 @@ Cada necessidade é resolvida por um objeto diferente.
 
 ---
 
-## Os Objetos Mais Comuns
+## Primeiros Objetos a Conhecer
 
 ### Domain
 
@@ -40,19 +38,17 @@ Define as características técnicas de um valor.
 
 Exemplo:
 
-Plain Text
-
-Número inteiro
-
-8 caracteres
-
-Data
-
-Texto
+	Número inteiro
+	
+	8 caracteres
+	
+	Data
+	
+	Texto
 
 Pergunta que responde:
 
-> "Que tipo de valor pode ser guardado?"
+	"Que tipo de valor pode ser guardado?"
 
 ---
 
@@ -62,17 +58,15 @@ Define o significado de um valor.
 
 Exemplo:
 
-Plain Text
-
-Employee ID
-
-Start Date
-
-Employee Name
+	Employee ID
+	
+	Start Date
+	
+	Employee Name
 
 Pergunta que responde:
 
-> "O que representa este campo?"
+	"O que representa este campo?"
 
 ---
 
@@ -82,17 +76,15 @@ Guarda os dados.
 
 Exemplo:
 
-Plain Text
-
-Funcionário 1000
-
-Funcionário 1001
-
-Funcionário 1002
+	Funcionário 1000
+	
+	Funcionário 1001
+	
+	Funcionário 1002
 
 Pergunta que responde:
 
-> "Onde os dados ficam armazenados?"
+	"Onde os dados ficam armazenados?"
 
 ---
 
@@ -102,15 +94,13 @@ Ajuda o utilizador a encontrar valores.
 
 Exemplo:
 
-Plain Text
-
-Pesquisar colaborador pelo nome
-
-e devolver o ID
+	Pesquisar colaborador pelo nome
+	
+	e devolver o ID
 
 Pergunta que responde:
 
-> "Como ajudar o utilizador a encontrar um valor?"
+	"Como ajudar o utilizador a encontrar um valor?"
 
 ---
 
@@ -120,17 +110,15 @@ Contêm a lógica da aplicação.
 
 Exemplo:
 
-Plain Text
-
-Calcular antiguidade
-
-Validar dados
-
-Gerar relatórios
+	Calcular antiguidade
+	
+	Validar dados
+	
+	Gerar relatórios
 
 Pergunta que respondem:
 
-> "O que o sistema deve fazer?"
+	"O que o sistema deve fazer?"
 
 ---
 
@@ -140,55 +128,49 @@ Permite executar uma funcionalidade.
 
 Exemplo:
 
-Plain Text
-
-VA03
-
-SE11
-
-ME23N
+	VA03
+	
+	SE11
+	
+	ME23N
 
 Pergunta que responde:
 
-> "Como o utilizador acede à funcionalidade?"
+	"Como o utilizador acede à funcionalidade?"
 
 ---
 
 ## Como Tudo se Liga?
 
-Plain Text
-
-Domain
-
-↓
-
-Data Element
-
-↓
-
-Table
-
-↓
-
-Search Help
-
-↓
-
-Program / Class
-
-↓
-
-Transaction
-
-↓
-
-User
+	Domain
+	
+	↓ é usado por um
+	
+	Data Element
+	
+	↓ é atribuído ao campo de uma
+	
+	Table
+	
+	↓ pode ser associada à uma
+	
+	Search Help
+	
+	↓ Pode ser usada num
+	
+	Program / Class
+	
+	↓ Pode estar ligado a uma
+	
+	Transaction
+	
+	↓ é efetuada por um
+	
+	User
 
 ---
 
 ## O Que Devo Aprender Primeiro?
-
-Plain Text
 
 1. Domain
 

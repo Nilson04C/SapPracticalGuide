@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5ccf7f8d1dea315e",
+        "id": "f042f53741abad09",
         "type": "tabs",
         "children": [
           {
-            "id": "9e3ab2f40a3d8f28",
+            "id": "af5f3b4362f86d86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistema SAP/Objetos SAP.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Objetos SAP"
+              "title": "Nova aba"
             }
           }
         ]
@@ -199,15 +195,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0b0eaf5292e02085",
+  "active": "af5f3b4362f86d86",
   "lastOpenFiles": [
+    "Sistema SAP/Objetos SAP.md",
+    "Como a Equipa SAP Está Organizada.md",
+    "Início.md",
     "github.com/Nilson04C",
     "github.com",
     "Sistema SAP/Componentes Organizacionais SAP.md",
-    "Sistema SAP/Objetos SAP.md",
     "Sem título.md",
-    "Início.md",
-    "Como a Equipa SAP Está Organizada.md",
     "Sistema SAP",
     "images/iceberg image.jpg",
     "Create Vault.md",
